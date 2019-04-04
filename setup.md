@@ -34,4 +34,11 @@ $ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/s
 $ sudo apt update
 $ sudo apt install sublime-text
 ```
+
+
+#### Install GIT.
+```
+$ sudo apt install git
+```
+
 ----------------------------------------------------------------
