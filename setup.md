@@ -63,6 +63,9 @@ $ sudo apt install google-chrome-stable
 $ google-chrome-stable
 ```
 
+* [Keyboard Shortcuts](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html)
+
+
 #### Install MongoDB.
 1. Import the public key used by the package management system.
 ```
