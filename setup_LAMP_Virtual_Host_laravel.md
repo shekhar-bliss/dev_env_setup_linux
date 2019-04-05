@@ -88,9 +88,15 @@ $ sudo chmod -R ug+rwx storage bootstrap/cache
 
 ```
 
-11. Naming Application
+12. Naming Application
 ```
 $ php artisan app:name Horsefly
+
+```
+
+13. Database Migrations
+```
+$ php artisan migrate
 
 ```
 
