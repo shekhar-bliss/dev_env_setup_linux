@@ -39,7 +39,6 @@ sub   rsa4096 2017-02-22 [S]
 
 3. Select the channel to use: Stable
 ```
-$ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 $ sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
