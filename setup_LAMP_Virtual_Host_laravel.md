@@ -86,6 +86,9 @@ $ sudo find /path/to/your/laravel/root/directory -type d -exec chmod 755 {} \;
 $ sudo chgrp -R www-data storage bootstrap/cache
 $ sudo chmod -R ug+rwx storage bootstrap/cache
 
+$ sudo chgrp -R www-data storage/logs
+$ sudo chmod -R ug+rwx storage/logs
+
 ```
 
 12. Naming Application
@@ -100,4 +103,16 @@ $ php artisan migrate
 
 ```
 
+14. Application Key
+```
+$ php artisan key:generate
+
+```
+
+
+15. The Jobs Directory
+```
+$ php artisan key:generate
+
+```
 ----------------------------------------------------------------
